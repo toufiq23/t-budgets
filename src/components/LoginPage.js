@@ -10,8 +10,8 @@ export const LoginPage = ({ startLogin }) => (
       <p className="intro">This is a budgeting app. In this app you can record your expenses in our database and then access it by logging in and logging out. Thanks for joining our vast database.</p>
       <button className="button" onClick={startLogin}>Login with Google</button>
     </div>
-		<div>
-			<h2>Made by M Toufiq ELAHI</h2>
+		<div className="created">
+			<h2>Created by M Toufiq ELAHI</h2>
 			<img className="portrait" src="/images/me.jpg" />
 		</div>
   </div>
