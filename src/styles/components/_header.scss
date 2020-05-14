@@ -1,0 +1,22 @@
+.header {
+  background: $dark-blue;
+}
+
+.tcup {
+    width: 2em;
+    height: 2em;
+		margin: 2em 1em;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__title {
+	display: flex;
+	flex-direction: row;
+  text-decoration: none;
+}

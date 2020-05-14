@@ -1,0 +1,46 @@
+.box-layout {
+  align-items: center;
+  background: url('/images/background.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+	flex-direction: column;
+}
+
+.box-layout__box {
+  background: fade-out(white, .15);
+  border-radius: 3px;
+	margin: 80px;
+  padding: $l-size $m-size;
+  text-align: center;
+	height: 40rem;
+  width: 45rem;
+}
+
+.box-layout__title {
+  margin: 0 0 $m-size 0;
+  line-height: 1;
+}
+
+.portrait {
+    height: 30em;
+    width: 25em;
+}
+
+#tcup {
+    width: 7em;
+    height: 5em;
+		padding: 1em;
+}
+
+.intro {
+	font-size: 1.3em;
+}
+
+h1 {
+	color: #04F0ED;
+}
+
+h2 {
+	color: red;
+}

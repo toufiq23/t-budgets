@@ -1,0 +1,25 @@
+.button {
+	cursor: pointer;
+	font-size: $font-size-large;
+  font-weight: 300;
+  padding: $s-size 18px;
+	background: $violet;
+	border: none;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+	transition: background .3s ease;
+}
+
+.button:hover {
+    background: #22F11C;
+}
+
+.button--link {
+  background: none;
+	font-size: 22px;
+}
+
+.button--secondary {
+  background: #888;
+}
